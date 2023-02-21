@@ -9,8 +9,8 @@
 # Name of the subdirectory
 #clone_dir="stable-diffusion-webui"
 
-# Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-#export COMMANDLINE_ARGS=""
+# Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention 6464"
+export COMMANDLINE_ARGS="--listen --administrator --port 6464 --enable-console-prompts --api --enable-insecure-extension-access --theme dark"
 
 # python3 executable
 #python_cmd="python3"
